@@ -1,0 +1,225 @@
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("/webfonts/fa-regular-400.eot");
+  src: url("/webfonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), url("/webfonts/fa-regular-400.woff2") format("woff2"), url("/webfonts/fa-regular-400.woff") format("woff"), url("/webfonts/fa-regular-400.ttf") format("truetype"), url("/webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
+
+.far {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 400; }
+  
+  @font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("/webfonts/fa-solid-900.eot");
+  src: url("/webfonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), url("/webfonts/fa-solid-900.woff2") format("woff2"), url("/webfonts/fa-solid-900.woff") format("woff"), url("/webfonts/fa-solid-900.ttf") format("truetype"), url("/webfonts/fa-solid-900.svg#fontawesome") format("svg"); }
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; }
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	margin:0;
+	color:#333;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.nav a{
+	color:#333;
+	font-weight:bold;
+}
+
+.title-section{
+	background: url('img/office_w.jpg') no-repeat 0 bottom/cover;
+	color:#333;
+}
+
+.title-section img {
+	height:350px;
+	border-radius: 10000000px;
+	border: solid 8px #fff;
+	box-shadow:1px 1px 9px #333;
+}
+
+.btn{
+	height: 55px;
+	line-height: 52px;
+	padding: 0 20px;
+	background-color: #ffc107 !important;
+	color:#333;
+	font-weight:bold;
+	border:1px solid #fff;
+}
+
+.bg-darkblue{
+	background-color:#0E1E29;
+	color:#fff;
+}
+.bg-grey{
+	background-color:#38454C;
+	color:#fff;
+}
+.bg-black{
+	background-color:#111 !important;
+	color:#fff;
+}
+
+.skills-container{
+	margin-bottom:30px;
+}
+
+.arrival-experience{
+	background: url('img/programmer2.jpg') no-repeat center center/cover;
+
+	color:#fff;
+}
+
+.arrival-experience i{
+	font-size:50px;
+	text-aign:center;
+}
+
+.arrival-experience .bigfont{
+	font-size:50px;
+	text-align:center;
+	width:100%;
+	font-weight:bold;
+}
+
+.arrival-experience .middlefont{
+	font-size: 22px;
+	font-weight: 600;
+	width:100%;
+	text-align:center;
+}
+
+.icon-skills i{
+	font-size:80px;
+	text-align:center;
+	color:#333;
+}
+
+.cv-box{
+	border:solid 2px #fff;
+	padding:15px;
+	height:100%;
+	margin:0 10px;
+	border-radius:5px;
+}
+
+.cv-box .title{
+	font-size:18px;
+	text-align:center;
+	color:#ffc107;
+}
+.cv-box .place{
+	font-size:12px;
+	font-style:italic;
+		text-align:center;
+}
+
+.cv-box .date{
+	font-size:14px;
+	color:#ccc;
+	text-align:center;
+}
+.cv-box ul{
+	margin-top:20px;
+}
+
+.cv-box ul li{
+	font-size:14px;
+	padding-bottom:5px;
+}
+.cv-box ul li:last-child{
+	padding-bottom:0px;
+}
+.contact-section{
+	background:#ededed;
+
+}
+.footer{
+	height:100px;
+	color:#fff;
+}
+
+.red{
+	color:red;
+}
+.green{
+	color:green;
+}
+
+.logo-section{
+	opacity:0.4;
+}
+.logo-container{
+	margin-right:20px;
+
+}
+
+.logo-container img{
+	width:100%;
+}
+
+.nav-link:hover{
+	cursor:pointer;
+} 
+
+.nav-link.lang{
+	color:#000 !important;
+} 
+
+
+
+@media (min-width: 576px) { }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {  }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {  }
+
+
+
+@media (max-width: 576px) { 
+
+
+}
+
+
+@media only screen and (max-width: 768px) {
+	.title-section img {
+    height: 310px;
+    margin-bottom:20px;
+	}
+	
+	.arrival-experience i{
+		font-size:30px;
+	}
+	.arrival-experience .bigfont{
+		font-size:30px;
+	}
+	.arrival-experience .middlefont{
+		font-size:18px;
+	}
+ }
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) {  }

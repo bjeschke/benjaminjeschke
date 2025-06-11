@@ -122,6 +122,12 @@ body{
 	text-align:center;
 	color:#ffc107;
 }
+.cv-box .title-dark {
+	font-size:18px;
+	text-align:center;
+	color:#0E1E29;
+}
+
 .cv-box .place{
 	font-size:12px;
 	font-style:italic;
